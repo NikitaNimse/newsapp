@@ -41,7 +41,7 @@ function Home() {
               news.map((newsArticle,index)=>{
               const {author,title,description,url,urlToImage,publishedAt}= newsArticle
               return(
-               <NewsArticle
+                <NewsArticle
                 author={author}
                 title={title}
                 description={description}
